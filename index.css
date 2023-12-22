@@ -4,7 +4,11 @@ body {
 }
 
 a {
-  color: #6688aa;
+  color: #e44f9c;
+}
+
+a:hover {
+  color: #89004f;
 }
 
 .content-container {
@@ -20,7 +24,7 @@ a {
 .navbar-light .navbar-nav .nav-link.active,
 .nav-pills .nav-link.active {
   background-color: transparent;
-  color: #6688aa;
+  color: #e44f9c;
   font-weight: bold;
 }
 
@@ -56,10 +60,10 @@ a {
 
 #my_cv_btn {
   text-decoration: none;
-  color: #6688aa;
+  color: #e44f9c;
   font-size: 18px;
   background-color: white;
-  border: 2px solid #6688aa;
+  border: 2px solid #e44f9c;
   width: 190px;
   margin-left: auto;
   margin-right: auto;
@@ -71,8 +75,8 @@ a {
 #my_cv_btn:hover {
   transition: background-color 0.3s ease;
   color: white;
-  background-color: #6688aa; /* Cambia el color de fondo al pasar el ratón */
-  border: 3px solid #6688aa;
+  background-color: #e44f9c; /* Cambia el color de fondo al pasar el ratón */
+  border: 3px solid #e44f9c;
 }
 
 
@@ -101,7 +105,7 @@ a {
 
 .sobre-mi-iconos a:hover {
   transition: background-color 0.3s ease;
-  background-color: #6688aa;
+  background-color: #e44f9c;
 }
 
 .sobre-mi-icon img{
@@ -188,7 +192,7 @@ a {
   width: 85%; 
   max-width: 500px; 
   border-radius: 9999999px;  
-  border:8px solid #6688aa;
+  border:8px solid #513525;
   transition: all 0.3s ease-out 0s;
   margin-left: 125px;
 }
