@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrián Carrasco Espinosa</title>
+  <meta name="description" content="Página de Adrián Carrasco Espinosa, ingeniero informático de la escuela superior de informática en la Universidad de Castilla-La Mancha"/>
+  <meta name="keywords" content="carrasco espinosa, ingeniero, informatica, desarrollo, ciudad real, web, backend, frontend, fullstack"/>
+  
+  <meta name="author" content="Adrian Carrasco Espinosa" />
+
+<meta name="copyright" content="Adrian Carrasco Espinosa" />
+  
+  <meta name="robots" content="index"/>
+
+  <link rel="icon" href="Recursos/General/iconoventana.webp" type="image/png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./index.css">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Inconsolata&family=PT+Sans&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=PT+Sans&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+
+<body data-bs-spy="scroll">
+  <div class="content-container">
+    <nav id="mynavbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="navbar-content container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./Recursos/General/logo.webp" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mi-menu">
+
+          <ul class="navbar-nav ms-auto nav-pills">
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#inicio"><i class="fa-solid fa-house"></i></a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#sobre-mi">SOBRE MÍ</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#formacion">FORMACIÓN</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#aptitudes">APTITUDES</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#tecnologias">TECNOLOGÍAS</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contacto">CONTACTO</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="content-container scrollspy-example" data-bs-spy="scroll" data-bs-target="#mynavbar" data-bs-offset="0"
+      tabindex="0">
+
+      <!-- Inicio -->
+      <div id="inicio" class="inicio d-flex flex-column justify-content-center">
+        <div class="inicio-container d-flex flex-column justify-content-center">
+          <h1 class="inicio-title">Adrián Carrasco Espinosa</h1>
+          <div>
+            <span class="inicio-left-subtitle">Ingeniero informático</span>
+            <span class="inicio-rigth-subtitle">Tecnologías de la información</span>
+          </div>
+
+          <div class="sobre-mi-iconos mt-4 mb-5 py-2">
+
+            <a class="sobre-mi-icon mx-2 d-flex flex-column justify-content-center" href="https://github.com/Adri-LH"
+              target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a class="sobre-mi-icon mx-2 d-flex flex-column justify-content-center" href="https://www.linkedin.com"
+              target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a class="sobre-mi-icon mx-2 d-flex flex-column justify-content-center" href="mailto:adri33.cares@gmail.com"
+              target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+          </div>
+
+
+          <a class="" id="my_cv_btn" href="./Recursos/General/CV_Adrián_Carrasco_Espinosa.pdf" download="Adrian_Carrasco_Espinosa_CV.pdf">
+            Descargar CV <i class="ms-2 fa-solid fa-download"></i>
+          </a>
+      
+
+        </div>
+      </div>
+
+      <!-- Sobre mi -->
+      <div>
+        <h2 id="sobre-mi" class="titulo-seccion text-center">SOBRE MÍ</h2>
+        <h3 class="text-center subtitulo-seccion"> Una breve presentación </h3>
+      </div>
+
+      <div class="sobre-mi-container container-fluid">
+        <div class="shadow-sm row">
+
+          <div class="sobre-mi-foto d-flex justify-content-center align-items-center col-xl-6 pt-1 my-4">
+            <img src="./Recursos/General/fotomia.webp" alt="Mi foto">
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center col-xl-6 my-4">
+            <div class="sobre-mi-texto p-4">
+
+              <h3 class="text-center mb-3">¡Hola!</h3>
+              <p>Soy Adrián, un estudiante de cuarto curso de la carrera de ingeniería informática
+                en la <a href="https://esi.uclm.es/">Escuela Superior de Informática</a> de la <a
+                  href="https://www.uclm.es/">Universidad de Castilla-La Mancha</a>.</p>
+              <p>Soy una persona interesada en el mundo de la tecnología, siempre atento a las novedades que
+                nos ofrece.</p>
+              <p>Actualmente en busca de una empresa que me permita aplicar los conocimientos desarrollados en mi
+                carrera.</p>
+              <div class="pt-4 d-flex justify-content-center">
+                <a id="contactaconmigo" href="#6-contacto">¡Contacta conmigo!</a>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Formacion -->
+      <div>
+        <h2 id="formacion" class="titulo-seccion text-center">FORMACIÓN</h2>
+        <h3 class="text-center subtitulo-seccion"> Estos son mis estudios </h3>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+
+          <div class="shadow-sm flex-column uclm-logo-container col-md-2 text-center">
+            <img id="img-uclm-logo" class="p-2" src="./Recursos/General/UCLM.webp" alt="logo uclm" />
+            <img id="img-esi-logo" class="p-2" src="./Recursos/General/esiv2.webp" alt="logo esi" />
+          </div>
+
+          <div class="shadow-sm p-4 uclm-text col-md-6 d-flex justify-content-center align-items-center">
+            <ul>
+              <li>Grado en ingeniería informática (Desde 2020)</li>
+              <li><a href="https://www.uclm.es/">Universidad de Castilla-La Mancha</a></li>
+              <li><a href="https://esi.uclm.es/">Escuela Superior de Informática</a></li>
+              <li><a href="https://esi.uclm.es/index.php/grado-en-ingenieria-informatica/plan-de-estudios/">Modalidad
+                  Tecnologías de la Información</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Complementaria -->
+
+      <div class="table-container m-auto mt-5">
+        <table class="formacion-complementaria-container table table-striped m-auto">
+          <thead>
+            <tr>
+              <th class="titulo-formacion-complementaria" colspan="4" style="text-align: center;">Formación
+                complementaria
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">Curso</th>
+              <th scope="col">Centro</th>
+              <th scope="col">Duración</th>
+              <th scope="col">Año cursado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img class="me-2" src="Recursos/Formacion/bootstrap-logo.webp" alt="bootstrap" />
+                <a
+                  href="https://www.freecodecamp.org/espanol/news/aprende-bootstrap-5-en-espanol-creando-tu-portafolio-personal-curso-de-bootstrap-desde-cero/">Bootstrap
+                </a>
+              </td>
+              <td><a href="https://www.freecodecamp.org/">Freecodecamp</a></td>
+              <td>5 horas</td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="me-2" src="Recursos/Formacion/react-logo.webp" alt="react" />
+                <a
+                  href="https://www.freecodecamp.org/espanol/news/aprende-react-desde-cero-curso-de-react-con-proyectos/">React</a>
+              </td>
+              <td>FreeCodeCamp</td>
+              <td>8 horas</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="me-2" src="Recursos/Habilidades/angular.webp" alt="angular" />
+                <a href="https://www.pildorasinformaticas.es/course/curso-angular/">Angular</a>
+              </td>
+              <td><a href="https://www.pildorasinformaticas.es/">Pildorasinformaticas</a></td>
+              <td>8 horas</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="me-2" src="Recursos/Formacion/spring-logo.webp" alt="spring" />
+                <a href="https://www.pildorasinformaticas.es/course/curso-spring/">Spring</a>
+              </td>
+              <td>Pildorasinformaticas</td>
+              <td>12 horas</td>
+              <td>2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+      <!-- Aptitudes -->
+      <div>
+        <h2 id="aptitudes" class="titulo-seccion text-center">Aptitudes</h2>
+        <h3 class="text-center subtitulo-seccion"> Lo que hay que tener </h3>
+      </div>
+
+      <div class="overflow-auto">
+        <div class="aptitudes-container d-flex justify-content-center">
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/teamwork.webp" alt="trabajo en equipo">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Trabajo en equipo</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm  aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/creativity.webp" alt="creatividad">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Creatividad</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/aprendizaje.webp" alt="aprendizaje">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Autodidacta</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/etica.webp" alt="aprendizaje">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Ética</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="overflow-auto">
+        <div class="aptitudes-container d-flex justify-content-center mt-4">
+          <div class="shadow-sm aptitudes-item p-4 m-3">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/comunicacion.webp" alt="planificación">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Comunicación</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/adaptability.webp" alt="adaptación">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Adaptabilidad</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/motivation.webp" alt="motivación">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Motivación</h3>
+            </div>
+          </div>
+
+          <div class="shadow-sm aptitudes-item p-4 m-2">
+            <div class="p-3 text-center">
+              <img src="./Recursos/Aptitudes/empatia.webp" alt="aprendizaje">
+            </div>
+
+            <div class="pt-2">
+              <h3 class="text-center">Empatía</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Habilidades -->
+      <div>
+        <h2 id="tecnologias" class="titulo-seccion text-center">TECNOLOGÍAS</h2>
+        <h3 class="text-center subtitulo-seccion"> Estas son tecnologías que manejo </h3>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row habilidades-container justify-content-center">
+
+          <div class="habilidades-item pb-5 pt-2 shadow-sm col-md-4">
+            <h3 class="mb-4">Lenguajes</h3>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Python</h3><img src="./Recursos/Habilidades/python.webp" alt="python" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Java</h3><img src="./Recursos/Habilidades/java.webp" alt="java" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>C#</h3><img src="./Recursos/Habilidades/csharp.webp" alt="cs" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>JavaScript</h3><img src="./Recursos/Habilidades/js.webp" alt="javascript" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>CSS</h3><img src="./Recursos/Habilidades/css-3.webp" alt="css" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>HTML</h3><img src="./Recursos/Habilidades/html.webp" alt="html" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="habilidades-item pb-5 pt-2 shadow-sm col-md-4">
+            <h3 class="mb-4">Frameworks</h3>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>React</h3><img src="./Recursos/Formacion/react-logo.webp" alt="react" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Angular</h3><img src="./Recursos/Habilidades/angular.webp" alt="angular" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Bootstrap</h3><img src="./Recursos/Habilidades/bootstrap.webp" alt="bootstrap" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Spring</h3><img src="./Recursos/Formacion/spring-logo.webp" alt="spring" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>.NET</h3><img src="./Recursos/Habilidades/net.webp" alt="net" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid">
+        <div class="row habilidades-container justify-content-center">
+
+          <div class="habilidades-item pb-5 pt-2 shadow-sm col-md-4">
+            <h3 class="mb-4">IDE</h3>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Eclipse</h3><img src="./Recursos/Habilidades/eclipse.webp" alt="eclipse" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Visual Studio Code</h3><img src="./Recursos/Habilidades/vsc.webp" alt="vsc" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Microsoft Visual Studio</h3><img src="./Recursos/Habilidades/vs.webp" alt="vs" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="habilidades-item pb-5 pt-2 shadow-sm col-md-4">
+            <h3 class="mb-4">Otros</h3>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>GitHub</h3><img src="./Recursos/Habilidades/github.webp" alt="github" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>MySQL</h3><img src="./Recursos/Habilidades/mysql.webp" alt="mysql" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="habilidades-title">
+                <h3>Prestashop</h3><img src="./Recursos/Habilidades/prestashop.webp" alt="prestashop" />
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Portfolio -->
+    <div>
+      <h2 id="portfolio" class="titulo-seccion text-center">PORTFOLIO</h2>
+      <h3 class="text-center subtitulo-seccion">Estos son algunos de los proyectos que he desarrollado</h3>
+    </div>
+
+    <div class="container-fluid portfolio-container">
+      <div class=" row justify-content-center">
+
+        <div class="portfolio-item shadow-sm col-xl-3 p-4 m-3">
+          <div class="p-3 text-center">
+            <img src="./Recursos/Portfolio/rutas-icon.webp" alt="logo python">
+          </div>
+
+          <div class="pt-2">
+            <h3 class="text-center">Cálculo de rutas</h3>
+            <br>
+            <p>Sistema de cálculo de ruta más corta entre dos puntos, repasando conceptos básicos de algoritmos de
+              inteligencia artificial.</p>
+            <br>
+            <ul>
+              <li>Tecnologías: Python, Openstreetmap, GraphXML </li>
+              <li>Nº de participantes: 3</li>
+              <li>Asignatura: Sistemas Inteligentes</li>
+            </ul>
+
+            <div class="d-flex justify-content-center"> <a href="https://github.com/SI-CR/lab-b1-4" target="_blank">Ver
+                proyecto</a> </div>
+
+          </div>
+        </div>
+
+        <div class="portfolio-item shadow-sm col-xl-3 p-4 m-3">
+          <div class="p-3 text-center">
+            <img src="./Recursos/Portfolio/buscador-icon.webp" alt="logo cpp">
+          </div>
+
+          <div class="pt-2">
+            <h3 class="text-center">Buscador de palabras</h3>
+            <br>
+            <p>Sistema de buscador de palabras en textos, practicando los conceptos de programación
+              multihilo,
+              concurrencia y
+              sincronización de hilos y procesos.</p>
+            <br>
+            <ul>
+              <li>Tecnologías: C++ </li>
+              <li>Nº de participantes: 2</li>
+              <li>Asignatura: Sistemas Operativos 2</li>
+            </ul>
+
+            <div class="d-flex justify-content-center"> <a
+                href="https://github.com/Adri-LH/Practica-3-Sistemas-Operativos-II" target="_blank">Ver proyecto</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="portfolio-item shadow-sm col-xl-3 p-4 m-3">
+          <div class="p-3 text-center">
+            <img src="./Recursos/Portfolio/servicios-icon.webp" alt="logo zeroc">
+          </div>
+
+
+          <div class="pt-2">
+            <h3 class="text-center">Microservicio ZeroC ICE</h3>
+            <br>
+            <p>Componente de un sistema distribuido basado en microservicios. En concreto es el servicio principal, que
+              cuenta
+              con una interfaz para obtener referencias a otros servicios.</p>
+            <br>
+            <ul>
+              <li>Tecnologías: ZeroC ICE y Python </li>
+              <li>Nº de participantes: 1</li>
+              <li>Asignatura: Sistemas Distribuidos</li>
+            </ul>
+
+            <div class="d-flex justify-content-center"> <a href="https://github.com/Adri-LH/IceFlix" target="_blank">Ver
+                proyecto</a> </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="contacto-container d-flex flex-column align-items-center bg-dark mt-5">
+
+      <h2 id="contacto" class="titulo-seccion-contacto text-center">CONTACTO</h2>
+      <h3 class="mb-5 text-center"> ¡No dudes en contactar conmigo! </h3>
+
+      <div>
+        <div>
+          <i class="bi bi-envelope"></i>
+          <span>adri33.cares@gmail.com</span>
+        </div>
+
+        <div>
+          <i class="bi bi-telephone"></i>
+          <span>635 816 102</span>
+        </div>
+
+        <div class="sobre-mi-iconos iconos-contacto my-4 py-2">
+
+          <a class="sobre-mi-icon iconos-contacto mx-2 d-flex flex-column text-center justify-content-center"
+            href="https://github.com/Adri-LH" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a class="sobre-mi-icon mx-2 d-flex flex-column text-center justify-content-center"
+            href="https://www.linkedin.com" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a class="sobre-mi-icon mx-2 d-flex flex-column text-center justify-content-center t"
+            href="mailto:adri33.cares@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b09ee207c5.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
