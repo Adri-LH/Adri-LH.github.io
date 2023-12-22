@@ -192,7 +192,7 @@ a:hover {
   width: 85%; 
   max-width: 500px; 
   border-radius: 9999999px;  
-  border:8px solid #513525;
+  border:6px solid #513525;
   transition: all 0.3s ease-out 0s;
   margin-left: 125px;
 }
